@@ -3,47 +3,95 @@
   <head>
     <meta charset="UTF-8">
     <title>Sandy Srinivasan-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Viaoda+Libre&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Sigmar+One&family=Viaoda+Libre&display=swap" rel="stylesheet">
     <style>
       body{
-        background-color:#bf93a0;
-        
+        background-color:#F1EAD8;
+      }
+      header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px 40px;
+        box-sizing: border-box;
+      }
+      .duck{
+        width: 100%;
+      }
+      .duck img {
+        width: 100%;
+        height: auto;
+        display: block;
       }
       
-      .nav{
+      
+            
+      .nav {
         position: absolute;
-        top:10px;
-        left:150px;
+        top: 30px;
+        right: 80px;
       }
       .nav ul{
-        list-style-type:none;
-        margin: 10px;
-        padding:10px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    list-style: none;
+    display: flex;                  
+    gap: 30px;                     
+    margin: 10;
+    padding: 0;
       }
       .nav li{
-        float: left;
-        margin: 20px;
-        padding: 10px;
+      cursor: pointer;
+      
       }
       h1{
-        position: absolute;
-        right: 60px;
-        top: 30%;
-        margin: 5px;
+       font-family: sigmar one;
+        font-size: 4em;
       }
+    .foot{
+        position:fixed;
+        background:#8A8D7A;
+        left:0px;
+        bottom: 0px;
+        width: 100%;
+        height:75px;
+      }
+     
     
     </style>
   </head>
   <body>
+  <div class="centered_div">
+    <header>
+  <div class="duck">
+    
+  <img src="Mask group.png" alt="header with duck">
+    
+   </div>
     <div class="nav">
       <ul>
-        <li>Traditional Media</li>
-        <li> Digital Design</li>
-        <li>Prototypes/Case Studies</li>
+        <li>About</li>
+        <li>Works</li>
+        <li>Resume</li>
       </ul>
     </div>
+    </header>
     <h1>
-      Sandy Srinivasan
-      
+      Portfolio
     </h1>
+    <div class="foot">
+    sandysri0711@gmail.com
+    www.linkedin.com/in/sandy-srinivasan
+  </div>
+     
+    </div>
   </body>
-    </html>
+  
+</html>
